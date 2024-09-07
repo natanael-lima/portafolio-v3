@@ -1,18 +1,18 @@
 'use client'
 
-//import bgimg from '@/public/bg0.jpg';
 import AboutMe from '@/components/AboutMe'
 import Portfolio from '@/components/Projects'
 import ContactMe from '@/components/ContactMe'
 import Header from '@/components/Header';
 import Profile from '@/components/Profile';
+import Footer from '@/components/Footer';
 
 export default function Home() {
   
 
   return (
     <div className="min-h-screen flex flex-col items-center bg-gradient-to-r from-gray-800 via-gray-700 to-gray-900 relative">
-      {/*<div className="absolute inset-0 opacity-20 pointer-events-none" style={{ backgroundImage: `url(${bgimg.src})` }}></div>*/}
+      {/*<div className="absolute inset-0 opacity-20 pointer-events-none cover" style={{ backgroundImage: 'url(/bg4.jpg)',backgroundSize: 'cover',backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}></div>*/}
         <main className="flex-grow container mx-auto px-4 py-8 flex flex-col lg:flex-row items-start lg:space-x-8 space-y-6 lg:space-y-0 max-w-7xl">
         {/* Sección de información del perfil */}
         <Profile/>
@@ -26,7 +26,10 @@ export default function Home() {
           <Portfolio />
           <ContactMe />
         </section>
+        
       </main>
+      <Footer/>
+
     </div>
   );
 }
