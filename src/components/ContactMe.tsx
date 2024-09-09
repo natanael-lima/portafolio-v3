@@ -5,10 +5,10 @@ import { RiMailSendFill } from "react-icons/ri";
 export default function ContactMe() {
   return (
     <section id="contact" className='mb-4'>
-      <h2 className="text-3xl font-bold text-white mb-8">Contactame</h2>
+      <h2 className="text-3xl font-bold text-white/90 mb-8">Contactame</h2>
         <div className="flex flex-wrap justify-center gap-8">
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/natanael-dev/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-gray-300 hover:text-gray-50 transition-colors duration-300 "
@@ -17,7 +17,7 @@ export default function ContactMe() {
             LinkedIn
           </a>
           <a
-            href="https://github.com"
+            href="https://github.com/natanael-lima"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-gray-300 hover:text-gray-50 transition-colors duration-300 "
@@ -26,14 +26,14 @@ export default function ContactMe() {
             GitHub
           </a>
           <a
-            href="mailto:johndoe@example.com"
+            href="mailto:natanael.lima.dev@gmail.com"
             className="flex items-center gap-2 text-gray-300 hover:text-gray-50 transition-colors duration-300 "
           >
             <RiMailSendFill className="h-6 w-6" />
             Email
           </a>
           <a
-            href="mailto:johndoe@example.com"
+            href="https://api.whatsapp.com/send?phone=5493884670317"
             className="flex items-center gap-2 text-gray-300 hover:text-gray-50 transition-colors duration-300 "
           >
             <FaWhatsapp className="h-6 w-6" />

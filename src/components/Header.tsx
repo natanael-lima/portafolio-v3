@@ -30,7 +30,7 @@ export default function Header() {
             className={`text-sm font-semibold py-2 px-5 rounded-lg transition-colors duration-200 ${
               activeItem.id === item.id
                 ? 'bg-white bg-opacity-10 text-slate-100' // Fondo blanco con opacidad y texto blanco para el botón activo
-                : 'text-white hover:bg-white hover:bg-opacity-20' // Solo texto blanco y fondo de hover para los botones no activos
+                : 'text-white/90 hover:bg-white hover:bg-opacity-20' // Solo texto blanco y fondo de hover para los botones no activos
             }`}
           >
             {item.label}

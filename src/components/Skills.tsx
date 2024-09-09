@@ -31,16 +31,15 @@ export default function Skills() {
      <section className="rounded-md text-gray-200">
       <div className="grid grid-cols-3 gap-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-6">
         {skills.map((skill, index) => (
-          <a
+          <span
             key={index}
             className="block rounded-md border border-gray-400/30 p-2 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring flex flex-col justify-center items-center"
-            href="#"
           >
             <span className="inline-block rounded-lg bg-gray-50 p-3">
               {skill.icon}
             </span>
             <h2 className="mt-2 font-bold">{skill.name}</h2>
-          </a>
+          </span>
         ))}
       </div>
     </section>

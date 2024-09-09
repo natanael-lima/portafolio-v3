@@ -84,29 +84,29 @@ export const projects = [
 export default function Projects() {
   return (
     <section id="project" className="mb-16">
-      <h2 className="text-4xl font-bold text-white mb-4">Proyectos</h2>
+      <h2 className="text-4xl font-bold text-white/90 mb-4">Proyectos</h2>
       <div className="flex flex-col gap-8">
         {projects.map((project, index) => (
 
             <div key={index} className="flex flex-col md:flex-row w-full p-2 bg-gray-900/25 border border-gray-400/30 rounded-lg shadow-md hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring">
               <div className="flex-1 flex flex-col justify-between p-4">
-                <h3 className="mb-2 text-xl font-semibold text-cyan-100">{project.title}</h3>
-                <p className="mb-4 text-gray-300/80">
+                <h3 className="mb-2 text-xl font-semibold text-cyan-100/90">{project.title}</h3>
+                <p className="mb-4 text-gray-200/60">
                   {project.description}
                 </p>
                 <div className="mb-4 flex flex-wrap gap-2">
                   {project.technologies.map((tech, i) => (
-                    <span key={i} className="rounded-full bg-cyan-300/10 border border-cyan-100/50 px-2 py-1 text-xs text-cyan-100">
+                    <span key={i} className="rounded-full bg-cyan-300/10 border border-cyan-100/60 text-cyan-100/90 px-2 py-1 text-xs ">
                       {tech}
                     </span>
                   ))}
                 </div>
                 <div className="flex gap-4">
-                  <a href={project.demoLink} target="_blank" rel="noopener noreferrer" className="flex items-center px-4 py-2 bg-gray-300 text-sm rounded-md text-gray-700 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">
+                  <a href={project.demoLink} target="_blank" rel="noopener noreferrer" className="font-semibold flex items-center px-4 py-2 bg-gray-200 text-sm rounded-md text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">
                     <FaExternalLinkAlt className="mr-2 h-4 w-4" />
                     Demo
                   </a>
-                  <a href={project.sourceLink} target="_blank" rel="noopener noreferrer" className="flex items-center px-4 py-2 bg-gray-300 text-sm rounded-md text-gray-700 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">
+                  <a href={project.sourceLink} target="_blank" rel="noopener noreferrer" className="font-semibold flex items-center px-4 py-2 bg-gray-200 text-sm rounded-md text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">
                     <FaCode className="mr-2 h-4 w-4" />
                     Source
                   </a>
