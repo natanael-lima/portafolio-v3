@@ -3,43 +3,76 @@ import { FaExternalLinkAlt , FaCode } from "react-icons/fa";
 
 export const projects = [
   {
-    img: 'https://i.postimg.cc/L4JZ6JcQ/project-gestioneventos.png',
-    title: 'Project 1',
-    description: 'A brief description of Project 1 and its main features.',
-    technologies: ['HTML', 'CSS', 'Angular', 'Java', 'Spring', 'MySQL', 'JPA','RestApi', 'WebSocket', 'JWT', 'Postman', 'Bootstrap'],
-    sourceLink: 'https://github.com/yourusername/project1',
+    img: 'https://i.postimg.cc/Vv7sr9Lh/hotel-project.png',
+    title: 'Hotel Reservation System',
+    description: 'Registra usuarios, permite reservar y cancelar habitaciones, administra tarifas, procesa pagos e integra reseñas de usuarios.',
+    technologies: ['React','Tailwind','Vite','HTML','Node.js', 'Docker', 'Spring','Postgresql'],
+    sourceLink: 'https://github.com/natanael-lima/hotel-reservation-system',
     demoLink: 'https://yourproject1.demo.com'
   },
   {
-    img: 'https://i.postimg.cc/Pxj5BrRS/sales-project.png',
-    title: 'Project 2',
-    description: 'A brief description of Project 2 and its main features.',
-    technologies: ['HTML', 'CSS', 'Angular', 'Java', 'Spring', 'MySQL', 'JPA','RestApi', 'WebSocket', 'JWT', 'Postman', 'Bootstrap'],
-    sourceLink: 'https://github.com/yourusername/project2',
+    img: 'https://i.postimg.cc/mkZ2gpRM/ecommerce-project.png',
+    title: 'E-commerce Platform',
+    description: 'Gestiona usuarios, categorías y productos desde un panel administrativo con búsqueda y filtrado para una mejor experiencia.',
+    technologies: ['Java', 'HTML', 'CSS', 'Angular', 'RESTful', 'Postman', 'MySQL', 'Spring Boot','JWT'],
+    sourceLink: 'https://github.com/natanael-lima/ecommerce-web-application.git',
     demoLink: 'https://yourproject2.demo.com'
   },
   {
-    img: 'https://kinsta.com/es/wp-content/uploads/sites/8/2019/01/estudio-de-casi-de-un-portafolio-online.jpg',
-    title: 'Project 3',
-    description: 'A brief description of Project 2 and its main features.',
-    technologies: ['Vue', 'Vuetify', 'CSS'],
-    sourceLink: 'https://github.com/yourusername/project2',
+    img: 'https://i.postimg.cc/PxQ5hnGT/lovely-project.png',
+    title: 'Lovely Dating App',
+    description: 'Aplicación de citas con registro de usuarios, perfiles, chat en tiempo real y un motor de búsqueda de coincidencias.',
+    technologies : ['Java', 'HTML', 'CSS', 'Angular', 'RESTful', 'Postman', 'MySQL', 'Spring Boot','JWT', 'WebSocket'],
+    sourceLink: 'https://github.com/natanael-lima/lovely-dating-web-app.git',
     demoLink: 'https://yourproject2.demo.com'
   },
   {
-    img: 'https://kinsta.com/es/wp-content/uploads/sites/8/2019/01/estudio-de-casi-de-un-portafolio-online.jpg',
-    title: 'Project 4',
-    description: 'A brief description of Project 2 and its main features.',
-    technologies: ['Vue', 'Vuetify', 'CSS'],
-    sourceLink: 'https://github.com/yourusername/project2',
+    img: 'https://i.postimg.cc/7PXZW4MN/psm-project.png',
+    title: 'Postulants System Management',
+    description: 'Registra usuarios, permite seguimiento de postulaciones y cuenta con un rol administrativo para gestionar y revisar solicitudes.',
+    technologies : ['Java', 'Spring Boot', 'Thymeleaf', 'HTML', 'Bootstrap', 'JPA', 'MySQL'],
+    sourceLink: 'https://github.com/natanael-lima/applications-web-application.git',
     demoLink: 'https://yourproject2.demo.com'
   },
   {
-    img: 'https://kinsta.com/es/wp-content/uploads/sites/8/2019/01/estudio-de-casi-de-un-portafolio-online.jpg',
-    title: 'Project 5',
-    description: 'A brief description of Project 2 and its main features.',
-    technologies: ['Vue', 'Vuetify', 'CSS'],
-    sourceLink: 'https://github.com/yourusername/project2',
+    img: 'https://i.postimg.cc/HjGmTZqm/project-gestioninventario.png',
+    title: 'Comprehensive Sales System',
+    description: 'Gestiona ventas, productos y configuraciones de automóviles clásicos con roles de usuario específicos.',
+    technologies :['Java', 'Spring Boot','Thymeleaf', 'HTML', 'CSS', 'Bootstrap', 'MySQL'],
+    sourceLink: 'https://github.com/natanael-lima/sales-management-web-applications.git',
+    demoLink: 'https://yourproject2.demo.com'
+  },
+  {
+    img: 'https://i.postimg.cc/L4JZ6JcQ/project-gestioneventos.png',
+    title: 'Event Management System',
+    description: 'Programa y rastrea reuniones de negocios con informes detallados y acceso para los participantes a agendas y detalles.',
+    technologies : ['HTML', 'CSS', 'Bootstrap', 'Angular', 'NodeJS', 'Postman', 'Express', 'TypeScript', 'MongoDB'],
+    sourceLink: 'https://github.com/maxi1103/TpFinal-PySW-2022',
+    demoLink: 'https://yourproject2.demo.com'
+  },
+  {
+    img: 'https://i.postimg.cc/KzLFw5MM/project-playa.png',
+    title: 'Parking System Management',
+    description: 'Control de vehículos, emisión de boletos, gestión de clientes, seguimiento de espacios y generación de informes de ventas.',
+    technologies: ['C#', 'WPF', '.NET','SQL Server'],
+    sourceLink: 'https://github.com/natanael-lima/parking-management-desktop-application.git',
+    demoLink: 'https://yourproject2.demo.com'
+  },
+  {
+    img: 'https://i.postimg.cc/jj0MvQt9/project-optica.png',
+    title: 'Optical System Management',
+    description: 'Gestiona clientes, productos, ventas y usuarios con funciones de registro, modificación e informes detallados.',
+                  
+    technologies: ['C#', 'WinForms', '.NET Framework', 'SQL Server', 'Stored Procedure'],
+    sourceLink: 'https://github.com/natanael-lima/optical-management-desktop-application.git',
+    demoLink: 'https://yourproject2.demo.com'
+  },
+  {
+    img: 'https://i.postimg.cc/vZLqmqJz/project-clinical.png',
+    title: 'Clinical Shift Management',
+    description: 'Programa citas, gestiona pacientes, médicos y obras sociales, asigna turnos y envía notificaciones por correo electrónico.',
+    technologies: ['Java', 'Spring', 'JPA', 'Rest API', 'Postman', 'Unit Tests', 'MySQL'],
+    sourceLink: 'https://gitlab.com/lima73777/poo-2021-grupo02',
     demoLink: 'https://yourproject2.demo.com'
   },
   // Agrega más proyectos aquí
@@ -47,10 +80,11 @@ export const projects = [
 
 
 
+
 export default function Projects() {
   return (
     <section id="project" className="mb-16">
-      <h2 className="text-3xl font-bold text-white mb-4">Proyectos</h2>
+      <h2 className="text-4xl font-bold text-white mb-4">Proyectos</h2>
       <div className="flex flex-col gap-8">
         {projects.map((project, index) => (
 
@@ -62,7 +96,7 @@ export default function Projects() {
                 </p>
                 <div className="mb-4 flex flex-wrap gap-2">
                   {project.technologies.map((tech, i) => (
-                    <span key={i} className="rounded-full bg-cyan-300/10 border border-cyan-100/50 px-3 py-1 text-xs text-cyan-100">
+                    <span key={i} className="rounded-full bg-cyan-300/10 border border-cyan-100/50 px-2 py-1 text-xs text-cyan-100">
                       {tech}
                     </span>
                   ))}

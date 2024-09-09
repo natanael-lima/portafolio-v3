@@ -11,7 +11,7 @@ export default function Profile() {
               Software Developer | Programmer Analyst 
             </p>
           <a href="https://www.linkedin.com/in/natanael-dev/" className="flex items-center bg-slate-600 text-slate-300 hover:bg-slate-500/90 transition-colors duration-300 mb-6 inline-block rounded-md  px-6 py-2 text-sm font-semibold ">
-          Open to Work
+              Open to Work
               <FaHandPointLeft className="ml-2 h-4 w-4"/>
           </a>
         
@@ -41,7 +41,7 @@ export default function Profile() {
             <BsWhatsapp size={24} />
           </a>
           <a
-            href="/CV.pdf"
+            href="/resume-lima-es.pdf"
             download
             className="text-gray-400 hover:text-gray-100 transition-colors duration-300 scale-100 hover:scale-110 transition-transform"
           >
