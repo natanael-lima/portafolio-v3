@@ -73,7 +73,7 @@ body {
 }
 
 .rainbow-gradient {
-  background: linear-gradient(270deg, #116b55, #0d5e64, #0b615a, #095863);
+  background: linear-gradient(270deg, rgba(13, 190, 152, 0.25), rgba(41, 181, 216, 0.2), rgba(6, 203, 218, 0.2), rgba(0, 171, 194, 0.2));
   background-size: 500% 500%;
   animation: gradient 5s ease infinite;
 }

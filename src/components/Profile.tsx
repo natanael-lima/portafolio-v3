@@ -5,7 +5,7 @@ import { FaHandPointLeft } from "react-icons/fa";
 export default function Profile() {
   return (
     <aside className="w-full lg:w-1/3 bg-opacity-2 backdrop-filter backdrop-blur-3xl rounded-3xl p-8 border border-gray-400/30 flex flex-col items-center">
-        <img src="https://i.postimg.cc/Gt5v4pp7/me5.webp" alt="Profile Picture" className="rounded-full w-48 h-48 sm:w-48 sm:h-48 md:w-48 md:h-48 lg:w-64 lg:h-64 mb-2" />
+        <img src="https://i.postimg.cc/Gt5v4pp7/me5.webp" alt="Profile Picture" className="rounded-full w-48 h-48 sm:w-52 sm:h-52 md:w-52 md:h-52 lg:w-64 lg:h-64 mb-2" />
           <h1 className="text-2xl font-bold text-white/90 mb-1">Natanael Lima</h1>
             <p className="text-gray-200/60 mb-6 text-center">
               Software Developer | Programmer Analyst 
