@@ -3,15 +3,15 @@ import { FaExternalLinkAlt , FaCode } from "react-icons/fa";
 
 export const projects = [
   {
-    img: 'https://i.postimg.cc/Vv7sr9Lh/hotel-project.png',
+    img: 'https://i.postimg.cc/qRF08bmP/portada-hotel.png',
     title: 'Hotel Reservation System',
     description: 'Registra usuarios, permite reservar y cancelar habitaciones, administra tarifas, procesa pagos e integra reseñas de usuarios.',
-    technologies: ['React','Tailwind','Vite','HTML','Node.js', 'Docker', 'Spring','Postgresql'],
+    technologies: ['React','Tailwind','Vite','HTML','Node.js', 'Docker', 'Spring Boot','Postgresql'],
     sourceLink: 'https://github.com/natanael-lima/hotel-reservation-system',
     demoLink: 'https://yourproject1.demo.com'
   },
   {
-    img: 'https://i.postimg.cc/mkZ2gpRM/ecommerce-project.png',
+    img: 'https://i.postimg.cc/W4Xs4b0b/portada-ecommerce.png',
     title: 'E-commerce Platform',
     description: 'Gestiona usuarios, categorías y productos desde un panel administrativo con búsqueda y filtrado para una mejor experiencia.',
     technologies: ['Java', 'HTML', 'CSS', 'Angular', 'RESTful', 'Postman', 'MySQL', 'Spring Boot','JWT'],
@@ -19,15 +19,15 @@ export const projects = [
     demoLink: 'https://yourproject2.demo.com'
   },
   {
-    img: 'https://i.postimg.cc/PxQ5hnGT/lovely-project.png',
+    img: 'https://i.postimg.cc/qv6mRmnt/portada-lovely.png',
     title: 'Lovely Dating App',
     description: 'Aplicación de citas con registro de usuarios, perfiles, chat en tiempo real y un motor de búsqueda de coincidencias.',
-    technologies : ['Java', 'HTML', 'CSS', 'Angular', 'RESTful', 'Postman', 'MySQL', 'Spring Boot','JWT', 'WebSocket'],
+    technologies : ['Java','CSS', 'Angular', 'RESTful', 'Postman', 'MySQL', 'Spring Boot','JWT', 'WebSocket'],
     sourceLink: 'https://github.com/natanael-lima/lovely-dating-web-app.git',
     demoLink: 'https://yourproject2.demo.com'
   },
   {
-    img: 'https://i.postimg.cc/7PXZW4MN/psm-project.png',
+    img: 'https://i.postimg.cc/sgCj6LVy/portada-postulan.png',
     title: 'Postulants System Management',
     description: 'Registra usuarios, permite seguimiento de postulaciones y cuenta con un rol administrativo para gestionar y revisar solicitudes.',
     technologies : ['Java', 'Spring Boot', 'Thymeleaf', 'HTML', 'Bootstrap', 'JPA', 'MySQL'],
@@ -35,7 +35,23 @@ export const projects = [
     demoLink: 'https://yourproject2.demo.com'
   },
   {
-    img: 'https://i.postimg.cc/HjGmTZqm/project-gestioninventario.png',
+    img: 'https://i.postimg.cc/Wbkp7VcX/portada-weather.png',
+    title: 'Weather App',
+    description: 'Obtén información meteorológica precisa, incluyendo temperatura y velocidad del viento, con una interfaz sencilla.',
+    technologies :['NextJs', 'Tailwind','API'],
+    sourceLink: 'https://github.com/natanael-lima/weather-app.git',
+    demoLink: 'https://weather-app-nine-inky-68.vercel.app'
+  },
+  {
+    img: 'https://i.postimg.cc/GmPcZj2D/portada-tiendahia.png',
+    title: 'HIA Store Layout',
+    description: 'Maquetación de una tienda de productos artesanales, creado con Mobirise con seguimiento de visitas a través de Google Analytics.',
+    technologies :['Mobirise', 'HTML','CSS','Google-Analytics'],
+    sourceLink: 'https://github.com/natanael-lima/layout-store-mobirise',
+    demoLink: 'https://natanael-lima.github.io/maquetacion-store-mobirise/'
+  },
+  {
+    img: 'https://i.postimg.cc/pd22xnh6/portada-gestion-ventas.png',
     title: 'Comprehensive Sales System',
     description: 'Gestiona ventas, productos y configuraciones de automóviles clásicos con roles de usuario específicos.',
     technologies :['Java', 'Spring Boot','Thymeleaf', 'HTML', 'CSS', 'Bootstrap', 'MySQL'],
@@ -43,7 +59,7 @@ export const projects = [
     demoLink: 'https://yourproject2.demo.com'
   },
   {
-    img: 'https://i.postimg.cc/L4JZ6JcQ/project-gestioneventos.png',
+    img: 'https://i.postimg.cc/85cNfQbd/portada-eventos.png',
     title: 'Event Management System',
     description: 'Programa y rastrea reuniones de negocios con informes detallados y acceso para los participantes a agendas y detalles.',
     technologies : ['HTML', 'CSS', 'Bootstrap', 'Angular', 'NodeJS', 'Postman', 'Express', 'TypeScript', 'MongoDB'],
@@ -68,7 +84,7 @@ export const projects = [
     demoLink: 'https://yourproject2.demo.com'
   },
   {
-    img: 'https://i.postimg.cc/vZLqmqJz/project-clinical.png',
+    img: 'https://i.postimg.cc/kMZX84z2/portada-turnoss.png',
     title: 'Clinical Shift Management',
     description: 'Programa citas, gestiona pacientes, médicos y obras sociales, asigna turnos y envía notificaciones por correo electrónico.',
     technologies: ['Java', 'Spring', 'JPA', 'Rest API', 'Postman', 'Unit Tests', 'MySQL'],

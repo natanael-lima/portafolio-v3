@@ -59,3 +59,21 @@ body {
   50% { background-position: 100% 100%; }
   100% { background-position: 0% 0%; }
 }
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.rainbow-gradient {
+  background: linear-gradient(270deg, #116b55, #0d5e64, #0b615a, #095863);
+  background-size: 500% 500%;
+  animation: gradient 5s ease infinite;
+}

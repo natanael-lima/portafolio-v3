@@ -21,7 +21,7 @@ export default function Header() {
     }
   };
   return (
-    <header className="w-full lg:rounded-br-3xl lg:w-[45%] bg-gray-900/25 border border-gray-400/30 rounded p-2 absolute top-0 left-0 z-10">
+    <header className="w-full lg:rounded-br-3xl lg:w-[45%] bg-gray-900/25 border border-gray-400/30 p-2 absolute top-0 left-0 z-10">
     <nav className="flex justify-between space-x-2">
         {menuItems.map((item, index) => (
           <button
