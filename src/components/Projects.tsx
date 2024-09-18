@@ -48,7 +48,7 @@ export const projects = [
     description: 'Maquetación de una tienda de productos artesanales, creado con Mobirise con seguimiento de visitas a través de Google Analytics.',
     technologies :['Mobirise', 'HTML','CSS','Google-Analytics'],
     sourceLink: 'https://github.com/natanael-lima/layout-store-mobirise',
-    demoLink: 'https://natanael-lima.github.io/maquetacion-store-mobirise/'
+    demoLink: 'https://natanael-lima.github.io/layout-store-mobirise/'
   },
   {
     img: 'https://i.postimg.cc/pd22xnh6/portada-gestion-ventas.png',
