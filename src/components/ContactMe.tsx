@@ -5,7 +5,7 @@ import { RiMailSendFill } from "react-icons/ri";
 export default function ContactMe() {
   return (
     <section id="contact" className='mb-4'>
-      <h2 className="text-3xl font-bold text-white/90 mb-8">Contactame</h2>
+      <h2 className="text-4xl font-bold text-white/90 mb-8">Contactame</h2>
         <div className="flex flex-wrap justify-center gap-8">
           <a
             href="https://www.linkedin.com/in/natanael-dev/"
