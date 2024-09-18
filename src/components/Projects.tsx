@@ -104,7 +104,7 @@ export default function Projects() {
       <div className="flex flex-col gap-8">
         {projects.map((project, index) => (
 
-            <div key={index} className="flex flex-col md:flex-row w-full p-2 bg-gray-900/25 border border-gray-400/30 rounded-lg shadow-md hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring">
+            <div key={index} className="flex flex-col md:flex-row w-full p-2 bg-gray-900/25 rounded-lg shadow-md border border-gray-400/30  hover:border-gray-200/50 focus:outline-none focus:ring">
               <div className="flex-1 flex flex-col justify-between p-4">
                 <h3 className="mb-2 text-xl font-semibold text-cyan-100/90">{project.title}</h3>
                 <p className="mb-4 text-gray-200/60">
@@ -131,7 +131,7 @@ export default function Projects() {
               <img
                 src={project.img}
                 alt={`Project ${index + 1}`}
-                className="w-full md:w-1/2 h-auto object-cover rounded-md"
+                className="w-full md:w-1/2 h-auto object-cover rounded-md transition-transform duration-300 ease-in-out transform hover:rotate-1"
               />
             </div>
         ))}

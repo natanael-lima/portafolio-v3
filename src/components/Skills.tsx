@@ -33,8 +33,8 @@ export default function Skills() {
         {skills.map((skill, index) => (
           <span
             key={index}
-            className="block rounded-md border border-gray-400/30 p-2 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring flex flex-col justify-center items-center"
-          >
+            className="block rounded-md p-2 shadow-sm border border-transparent hover:border-gray-200/50 focus:outline-none focus:ring flex flex-col justify-center items-center"
+          > {/*border border-gray-400/30*/}
             <span className="inline-block rounded-lg bg-gray-50 p-3">
               {skill.icon}
             </span>
