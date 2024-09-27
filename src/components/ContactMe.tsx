@@ -26,7 +26,7 @@ export default function ContactMe() {
             GitHub
           </a>
           <a
-            href="mailto:natanael.lima.dev@gmail.com"
+            href="mailto:natanaelsys@gmail.com"
             className="flex items-center gap-2 text-gray-300 hover:text-gray-50 transition-colors duration-300 "
           >
             <RiMailSendFill className="h-6 w-6" />

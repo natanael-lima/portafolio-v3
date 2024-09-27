@@ -77,3 +77,22 @@ body {
   background-size: 500% 500%;
   animation: gradient 5s ease infinite;
 }
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%); /* Comienza fuera de la pantalla a la izquierda */
+    opacity: 0; /* Inicialmente oculto */
+  }
+  to {
+    transform: translateX(0); /* Termina en su posición original */
+    opacity: 1; /* Totalmente visible */
+  }
+}
+
+.slide-in-left {
+  opacity: 0; /* Inicialmente oculto */
+  animation: slideInLeft 0.5s ease forwards; /* Duración de la animación */
+}
+
+.slide-in-left.show {
+  opacity: 1; /* Muestra el elemento cuando se añade la clase 'show' */
+}
