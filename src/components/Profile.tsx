@@ -3,13 +3,9 @@ import { FaGithub,FaLinkedin,FaFilePdf } from "react-icons/fa";
 import { RiMailSendFill } from "react-icons/ri";
 import { FaHandPointLeft } from "react-icons/fa";
 
-interface AnimationProp{
-  className: string;
-}
-
-export default function Profile({className}:AnimationProp) {
+export default function Profile() {
   return (
-    <aside className={`w-full lg:w-1/3 bg-opacity-2 backdrop-filter backdrop-blur-3xl rounded-3xl p-8 border border-gray-400/30 flex flex-col items-center ${className}`}  style={{ animationDelay: '0.1s' }}>
+    <aside className='flex flex-col items-center '>
         <img src="https://i.postimg.cc/Gt5v4pp7/me5.webp" alt="Profile Picture" className="rounded-full w-36 h-36 sm:w-36 sm:h-36 md:w-44 md:h-44 lg:w-44 lg:h-44 mb-2" />
           <h1 className="text-2xl font-bold text-white/90 mb-1">Natanael Lima</h1>
             <p className="text-gray-200/60 mb-6 text-center">
